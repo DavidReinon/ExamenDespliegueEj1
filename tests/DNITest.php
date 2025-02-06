@@ -3,6 +3,7 @@ use App\DNI;
 use PHPUnit\Framework\TestCase;
 class DNITest extends TestCase
 {
+    //David Reinon
     public function testGetDNIConLetra()
     {
         $dni = new DNI(12345678);
